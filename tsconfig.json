@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "paths": {
+      "*": ["./stock/node_modules/*", "./stock/node_modules/@types/*"]
+    }
+  },
+  "include": ["firebase.ts", "stock/expo-env.d.ts"]
+}
